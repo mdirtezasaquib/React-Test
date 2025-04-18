@@ -48,7 +48,7 @@ export default function Navbar() {
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-white shadow-xl rounded-lg mx-4 mb-2 transition-all duration-300`}>
         <div className="pt-2 pb-3 space-y-1">
           <MobileNavLink to="/" onClick={() => setIsOpen(false)}>Home</MobileNavLink>
-          <MobileNavLink to="/services" onClick={() => setIsOpen(false)}>Practice</MobileNavLink>
+          <MobileNavLink to="/practice" onClick={() => setIsOpen(false)}>Practice</MobileNavLink>
           <MobileNavLink to="/resource" onClick={() => setIsOpen(false)}>Resources</MobileNavLink>
         </div>
       </div>
